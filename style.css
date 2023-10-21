@@ -2,37 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    height: 100vh;
+ 
     width: 100%;
-    margin: 90px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to bottom, #FFB0CD, #F4BCF9, #F7CDFB, #F7CDFB );
-    background-size: cover;
+    background-image: linear-gradient(to bottom, #FFB0CD, #F4BCF9, #F7CDFB, #F7CDFB);
+    background-size: 500% 100% ;
     background-position: center;
+    overflow-y: auto;
+    margin:20px 0; 
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed
+   
 }
-
 .titulo {
-    height: 10px;
+    height: auto;
     width: 100%;
     color: #FF0E65;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     text-align: left; 
-    margin-top: -50px;
+    margin-left: 10%;
+
 }
 
-.faixa {
-    margin-top: 20px;
-    padding: 10px;
-    height: 30px;
-    width: 150%;
+.faixa{
+    margin-top: 28px;
+    padding: 15px;
+    margin-left: -90px;
+    width: 1000%;
     background-color: #FF99BE;
-    border: 1px solid #FF0E65
+    border: 1px solid #FF0E65;
+
+    
 }
 main {
     color: white;
@@ -79,8 +86,8 @@ button {
 .container {
     color: #fff;
     padding: 20px;
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     border-radius: 20px;
     background-color: #FF99BE;
     border: 1px solid #FF0E65;
@@ -96,3 +103,9 @@ input {
 #exibir {
     margin-bottom: 20px;
 }
+footer{
+    color: #FF0E65;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

@@ -8,15 +8,21 @@
     <title>Frase Motivacional</title>
 </head>
 <body>
-    <header>
+    <header class="titulo">
         <h1>FRASES MOTIVACIONAIS</h1>
+        <hr class="faixa">
     </header>
     <main>
-        <div class="info">
-            <label for="name">Digite seu nome:</label>
-            <input type="text" id="name">
+        <div class="botao-container">
+            <button id="receberConselhos">Frase Motivacional</button>
         </div>
-        <button id="receberConselhos">Receber Conselhos</button>
+        <div class="botao-container">
+            <div class="info">
+                <label for="filosofo">Digite o nome do filósofo:</label>
+                <input type="text" id="filosofo">
+            </div>
+            <button id="obterFraseFilosofo">Obter Frase do Filósofo</button>
+        </div>
         <div class="container">
             <div id="exibir"></div>
         </div>
